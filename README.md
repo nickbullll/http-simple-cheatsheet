@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://i.imgur.com/2Euu5zH.png" alt="http logo"/>
+  <img src="http://i.imgur.com/zsuLfiU.png" alt="http logo"/>
 </p>
 
 
