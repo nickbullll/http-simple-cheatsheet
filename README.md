@@ -134,3 +134,9 @@ Server acting as a gateway or proxy did not receive response within the amount o
 
 ### 505 - HTTP Version Not Supported		
 Sewer does not support the HTTP protocol used by the client for the request.
+
+## Contribution
+
+- Report issues
+- Open pull request with improvements
+- Spread the word
