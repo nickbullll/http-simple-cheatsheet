@@ -79,7 +79,7 @@ Requested document was not found at the URL give and there is no new location sp
 Request method was not allowed for the specified document.
 
 ### 406 Not Acceptable	
-Requested document cannot be sent in a wat that the client can understand.
+Requested document cannot be sent in a way that the client can understand.
 
 ### 407 Proxy Authentication Required	
 Client must be authorized by the proxy before the requested document can be sent. 
