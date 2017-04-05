@@ -28,7 +28,7 @@ Request was successful, but information sent to the client about the response co
 Request was successful, but no data is sent back.
 
 ### 205 - Reset Content	
-Request from the server to reset the informabon sent, such as form data.
+Request from the server to reset the information sent, such as form data.
 
 ### 206 - Partial Content	
 Response to a successful request for only part of a document.
@@ -127,13 +127,13 @@ Server does not support what is required to fulfill the request.
 Server acting as a gateway or proxy received response from an upstream server that was deemed invalid.
 
 ### 503 - Service Unavailable	
-Server is currently unavailable due lo high load, maintenance, or other temporary situation.
+Server is currently unavailable due to high load, maintenance, or other temporary situation.
 
 ### 504 - Gateway Timeout
 Server acting as a gateway or proxy did not receive response within the amount of time that the server is set to wait for a response.
 
 ### 505 - HTTP Version Not Supported		
-Sewer does not support the HTTP protocol used by the client for the request.
+Server does not support the HTTP protocol used by the client for the request.
 
 ## Contribution
 
