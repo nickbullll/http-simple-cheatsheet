@@ -4,10 +4,11 @@
 
 
 ## Table of Contents
-  1. [Successful Requests](#1-successful-requests)  
-  2. [Redirects](#2-redirects)  
-  3. [Client Errors](#3-client-errors)  
-  4. [Server Errors](#4-server-errors)
+  1. [Informational](#1-informational)  
+  2. [Successful Requests](#2-successful-requests)  
+  3. [Redirects](#3-redirects)  
+  4. [Client Errors](#4-client-errors)  
+  5. [Server Errors](#5-server-errors)
 
 ## 1. Informational
 `1xx = ℹ️`
@@ -21,7 +22,7 @@ The server suggests switching to a protocol more suitable for the specified reso
 ### 102 - Processing
 The request is accepted, but it takes a long time to process it.
 
-## 1. Successful Requests
+## 2. Successful Requests
 `2xx = ✅`
 
 ### 200 - OK 
@@ -45,7 +46,7 @@ Request from the server to reset the information sent, such as form data.
 ### 206 - Partial Content	
 Response to a successful request for only part of a document.
 
-## 2. Redirects
+## 3. Redirects
 `3xx = 👉 `
 
 ### 300 - Multiple Choices
@@ -72,7 +73,7 @@ Requested document can only be accessed through a specified proxy.
 Requested document can temporarily found at a	different URL, which is given in the response.
 This is a more pure version of what a 302 is normally meant to be.
 
-## 3. Client Errors
+## 4. Client Errors
 `4xx = ❌`
 
 ### 400 Bad Request	
@@ -126,7 +127,7 @@ Request could not be fulfilled. Can occur if client requests a part of a documen
 ### 417 Expectation	Failed
 The server could not fulfill the requirements sent in the	"Expect" header field.
 
-## 4. Server Errors
+## 5. Server Errors
 `5xx = ⛔`
 
 ### 500 - Internal Server	
