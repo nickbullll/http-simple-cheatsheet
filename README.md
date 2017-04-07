@@ -8,7 +8,19 @@
   2. [Redirects](#2-redirects)  
   3. [Client Errors](#3-client-errors)  
   4. [Server Errors](#4-server-errors)
-  
+
+## 1. Informational
+`1xx = ℹ️`
+
+### 100 - Continue
+Server is satisfied with the initial information about the request and client can continue to forward headers.
+
+### 101 - Switching Protocols
+The server suggests switching to a protocol more suitable for the specified resource. (list of proposed protocols server indicates in the header field `Upgrade`)
+
+### 102 - Processing
+The request is accepted, but it takes a long time to process it.
+
 ## 1. Successful Requests
 `2xx = ✅`
 
